@@ -4,7 +4,7 @@ function checkOut(...prices) {
     const total = prices.reduce(function(acc, curr) {
         return acc + curr
       })  
-    
+    console.log("fernandito")
     console.log(total)
     }
      
