@@ -1,17 +1,18 @@
+/** @format */
+
 // *parametros res ************************************
 
 function checkOut(...prices) {
-    const total = prices.reduce(function(acc, curr) {
-        return acc + curr
-      })  
-    console.log("fernandito")
-    console.log(total)
-    }
-     
-    checkOut(10, 33, 66, 77, 88)
-    checkOut(10, 33, 88)
-    checkOut(10, 33, 88, 1, 432, 76, 123)
+    const total = prices.reduce(function (acc, curr) {
+        return acc + curr;
+    });
+    console.log("Bruno");
+    console.log(total);
+}
 
+checkOut(10, 33, 66, 77, 88);
+checkOut(10, 33, 88);
+checkOut(10, 33, 88, 1, 432, 76, 123);
 
 // *parametros res ************************************
 
@@ -19,12 +20,10 @@ function checkOut(...prices) {
 //     const total = prices.reduce((acc, curr) => acc + curr)
 //     console.log(total)
 //     }
-     
+
 //     checkOut(10, 33, 66, 77, 88)
 //     checkOut(10, 33, 88)
 //     checkOut(10, 33, 88, 1, 432, 76, 123)
-
-
 
 // *  parametro res************************************
 // function checkOut(...prices) {
@@ -34,8 +33,6 @@ function checkOut(...prices) {
 
 // checkOut(10, 33, 66, 77, 88)
 
-
-
 // *************************************
 // function checkOut(pr1, pr2, pr3, pr4, pr5) {
 // const total = pr1 + pr2 + pr3 + pr4 + pr5
@@ -43,10 +40,6 @@ function checkOut(...prices) {
 // }
 
 // checkOut(10, 33, 66, 77, 88)
-
-
-
-
 
 // *************************************
 
@@ -58,16 +51,12 @@ function checkOut(...prices) {
 // saludar("ferfer")
 // saludar("san justo")
 
-
-
 // *************************************
 // const mayuscula = (nombre)=> nombre.toUpperCase()
 
-
 // let nombre = mayuscula("annnnnndressssss")
-    
-// console.log(nombre)
 
+// console.log(nombre)
 
 // *************************************
 
@@ -77,16 +66,12 @@ function checkOut(...prices) {
 
 // saludar("Juancito")
 
-
-
 // *************************************
 
 // const saludar = ()=> {
 // console.log("hola me llamo fernando")
 // }
 // saludar()
-
-
 
 // *************************************
 
@@ -98,7 +83,7 @@ function checkOut(...prices) {
 // *************************************
 
 // function saludar() {
-//     console.log("Hola me llamo Juan") 
+//     console.log("Hola me llamo Juan")
 // }
 
 // saludar()
